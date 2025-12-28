@@ -24,8 +24,9 @@ nano [insert file path here]/Qbittorrent/wireguard/wg0.conf
 ```
 
 and insert the wiregaurd settings it generated it may look like this:
-*PLEASE NOTE THAT EACH WIREGUARD CONFIGURATION IS DIFFERENT AND YOU MAY GET SOMETHING DIFFERENT JUST COPY AND PAST IT TO THE LOCATION ABOVE*
 
+*PLEASE NOTE THAT EACH WIREGUARD CONFIGURATION IS DIFFERENT AND YOU MAY GET SOMETHING DIFFERENT JUST COPY AND PAST IT TO THE LOCATION ABOVE*
+```bash
 [Interface]
 # Key for arr stack
 PrivateKey = [This is an example]
@@ -36,3 +37,4 @@ DNS = [This is an example]
 PublicKey = [This is an example]
 AllowedIPs = [This is an example]
 Endpoint = [This is an example]
+```
